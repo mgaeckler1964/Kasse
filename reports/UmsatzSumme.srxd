@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<sql_report title="Umsatz" table_name="" record_name="" USER_NAME="" PASSWORD="" DB_ALIAS="KASSE">
+<query>
+<sql>select mitarbeiter.Name, sum(verkauf.gesamtpreis) as Summe
+from verkauf, mitarbeiter
+where datum &gt;= :theDate 
+and datum &lt; :theDate2
+and verkauf.mitarbeiter = mitarbeiter.id
+group by mitarbeiter.name
+</sql>
+<params>
+<param name="theDate" label="Anfang" value="1.7.2012 00:00:00" type="date_time" />
+<param name="theDate2" label="Ende" value="31.12.2099 00:00:00" type="date_time" />
+</params>
+</query>
+<chart title="Umsatz" legend="yes" type="bar" subtype="normal" topAxisTitle="" leftAxisTitle="Eur" rightAxisTitle="" bottomAxisTitle="Konto" topAxisGrid="no" leftAxisGrid="no" rightAxisGrid="no" bottomAxisGrid="no"><data label="Name" value="Summe" title="Summe" type="bar" subtype="normal" color="" vaxis="" haxis="" explode="" others="" mark="" legend="yes" /></chart>
+</sql_report>

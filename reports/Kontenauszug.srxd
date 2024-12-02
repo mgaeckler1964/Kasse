@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<sql_report title="Kontenauszug" table_name="" record_name="" USER_NAME="" PASSWORD="" DB_ALIAS="KASSE">
+<query>
+<sql>select Datum, "V" as Typ, Gesamtpreis as Betrag
+from verkauf
+where mitarbeiter = :mitarbeiterId
+union
+select Datum, "H" as Typ, Betrag
+from buchung
+where haben_konto = :mitarbeiterId
+union
+select Datum, "S" as Typ, -betrag as Betrag
+from buchung
+where soll_konto = :mitarbeiterId
+order by datum</sql>
+<params>
+<param name="mitarbeiterId" label="Name" value="" type="query">
+<query>select id, name 
+from mitarbeiter
+order by name</query>
+</param>
+</params>
+</query>
+</sql_report>

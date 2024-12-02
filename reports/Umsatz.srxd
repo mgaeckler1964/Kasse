@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<sql_report title="Umsatz" table_name="" record_name="" USER_NAME="" PASSWORD="" DB_ALIAS="KASSE"><query>
+<sql>select * from verkauf where datum &gt;= :theDate and datum &lt; :theDate2
+</sql>
+<params>
+<param name="theDate" label="Anfang" value="" type="date" />
+<param name="theDate2" label="Ende" value="" type="date" />
+</params>
+</query></sql_report>

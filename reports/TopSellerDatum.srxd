@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<sql_report title="Top Seller im Zeitraum" table_name="" record_name="" USER_NAME="" PASSWORD="" DB_ALIAS="KASSE">
+<query>
+<sql>select a.bezeichnung, sum(va.menge) as menge
+from artikel a, verkauf_artikel va, verkauf v
+where a.id = va.artikel
+and va.verkauf = v.id
+and v.datum &gt;= :startDatum
+and v.datum &lt;= :endeDatum
+group by a.bezeichnung
+order by 2 desc</sql>
+<params>
+<param name="startDatum" label="Anfang" value="" type="date" />
+<param name="endeDatum" label="Ende" value="" type="date" />
+</params>
+</query>
+<chart title="Top Seller im Zeitraum" legend="yes" type="pie" subtype="" topAxisTitle="" leftAxisTitle="" rightAxisTitle="" bottomAxisTitle="" topAxisGrid="no" leftAxisGrid="no" rightAxisGrid="no" bottomAxisGrid="no">
+<data label="bezeichnung" value="menge" title="" type="pie" subtype="" color="" vaxis="" haxis="" explode="" others="2%" mark="labelPercent" legend="no" />
+</chart>
+</sql_report>

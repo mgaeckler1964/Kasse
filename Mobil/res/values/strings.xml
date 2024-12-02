@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CRESD Kassenterminal</string>
+    <string name="action_settings">Settings</string>
+    <string name="FinishOrder">OK</string>
+    <string name="server_name">Server</string>
+    <string name="server_port">Port</string>
+    <string name="password">Kennwort</string>
+
+</resources>
