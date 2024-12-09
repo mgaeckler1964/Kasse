@@ -1,6 +1,6 @@
 object BuchungenForm: TBuchungenForm
-  Left = 552
-  Top = 143
+  Left = 537
+  Top = 384
   Width = 564
   Height = 510
   Caption = 'Buchungen'
@@ -20,7 +20,7 @@ object BuchungenForm: TBuchungenForm
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 556
+    Width = 548
     Height = 41
     Align = alTop
     TabOrder = 0
@@ -36,8 +36,8 @@ object BuchungenForm: TBuchungenForm
   object DBGrid1: TDBGrid
     Left = 0
     Top = 41
-    Width = 556
-    Height = 442
+    Width = 548
+    Height = 430
     Align = alClient
     DataSource = DataSourceBuchung
     TabOrder = 1

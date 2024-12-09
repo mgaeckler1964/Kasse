@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cresd.kasse"
+    package="at.gaeckler.kasse"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="16" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
@@ -14,7 +14,7 @@
         android:icon="@drawable/kasse"
         android:label="@string/app_name">
         <activity
-            android:name="com.cresd.kasse.KasseActivity"
+            android:name="at.gaeckler.kasse.KasseActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape" 
             android:configChanges="orientation|screenSize">

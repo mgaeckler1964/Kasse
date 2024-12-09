@@ -1,6 +1,6 @@
 object MitarbeiterForm: TMitarbeiterForm
-  Left = 492
-  Top = 192
+  Left = 414
+  Top = 450
   Width = 875
   Height = 406
   Caption = 'Mitarbeiter'
@@ -21,7 +21,7 @@ object MitarbeiterForm: TMitarbeiterForm
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 867
+    Width = 859
     Height = 41
     Align = alTop
     TabOrder = 0
@@ -62,8 +62,8 @@ object MitarbeiterForm: TMitarbeiterForm
   object DBGrid1: TDBGrid
     Left = 0
     Top = 41
-    Width = 867
-    Height = 338
+    Width = 859
+    Height = 326
     Align = alClient
     DataSource = DataSource
     TabOrder = 1

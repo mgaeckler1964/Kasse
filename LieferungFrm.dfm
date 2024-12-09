@@ -1,6 +1,6 @@
 object LieferungForm: TLieferungForm
-  Left = 308
-  Top = 267
+  Left = 361
+  Top = 356
   Width = 835
   Height = 452
   Caption = 'Lieferung'
@@ -22,14 +22,14 @@ object LieferungForm: TLieferungForm
     Left = 297
     Top = 0
     Width = 5
-    Height = 425
+    Height = 413
     Cursor = crHSplit
   end
   object Panel1: TPanel
     Left = 0
     Top = 0
     Width = 297
-    Height = 425
+    Height = 413
     Align = alLeft
     TabOrder = 0
     object Panel3: TPanel
@@ -52,7 +52,7 @@ object LieferungForm: TLieferungForm
       Left = 1
       Top = 42
       Width = 295
-      Height = 382
+      Height = 370
       Align = alClient
       DataSource = DataSourceLieferung
       TabOrder = 1
@@ -66,14 +66,14 @@ object LieferungForm: TLieferungForm
   object Panel2: TPanel
     Left = 302
     Top = 0
-    Width = 525
-    Height = 425
+    Width = 517
+    Height = 413
     Align = alClient
     TabOrder = 1
     object Panel4: TPanel
       Left = 1
       Top = 1
-      Width = 523
+      Width = 515
       Height = 41
       Align = alTop
       TabOrder = 0
@@ -99,8 +99,8 @@ object LieferungForm: TLieferungForm
     object DBGridLieferungArtikel: TDBGrid
       Left = 1
       Top = 42
-      Width = 523
-      Height = 382
+      Width = 515
+      Height = 370
       Align = alClient
       DataSource = DataSourceLieferungArtikel
       TabOrder = 1

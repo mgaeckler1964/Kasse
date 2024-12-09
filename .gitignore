@@ -30,9 +30,11 @@
 *.exe
 *.out
 *.app
+bin/
 
 # Borland C++ Builder files
 *.dsk
 
 # Backups
 *.bak
+*.~*

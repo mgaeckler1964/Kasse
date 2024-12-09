@@ -1,9 +1,9 @@
 object KasseForm: TKasseForm
-  Left = 1985
-  Top = 33
+  Left = 385
+  Top = 172
   Width = 454
   Height = 320
-  Caption = 'CRESD Kassenterminal'
+  Caption = 'GAK Kassenterminal'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

@@ -1,6 +1,6 @@
 object ArtikelForm: TArtikelForm
-  Left = 71
-  Top = -128
+  Left = 409
+  Top = 503
   Width = 1009
   Height = 427
   Caption = 'Artikel'
@@ -21,8 +21,8 @@ object ArtikelForm: TArtikelForm
   object DBGridArtikel: TDBGrid
     Left = 0
     Top = 41
-    Width = 840
-    Height = 359
+    Width = 832
+    Height = 347
     Align = alClient
     DataSource = DataSourceArtikel
     TabOrder = 0
@@ -35,7 +35,7 @@ object ArtikelForm: TArtikelForm
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1001
+    Width = 993
     Height = 41
     Align = alTop
     TabOrder = 1
@@ -85,10 +85,10 @@ object ArtikelForm: TArtikelForm
     end
   end
   object DBGridBarCodes: TDBGrid
-    Left = 840
+    Left = 832
     Top = 41
     Width = 161
-    Height = 359
+    Height = 347
     Align = alRight
     DataSource = DataSourceArtikelCode
     TabOrder = 2

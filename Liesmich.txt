@@ -1,18 +1,6 @@
-CRESD Kassenterminal 3.0                                             06.04.2014
+GAK Kassenterminal 3.0                                               09.12.2024
 ===============================================================================
 
-CRESD Kassenterminal ist ein Programm zu Erfassung der Verkäufe privater 
+GAK Kassenterminal ist ein Programm zu Erfassung der Verkäufe privater 
 Verkäufe ion Vereinen oder ähnlichen Organisationen.
 
-Das Programm ist Shareware und kostet pro Arbeitsstation und Androidclient 
-
-                                   EUR 50,--
-
-Bitte unterstützen Sie die Entwicklung der Software durch Erwerb der 
-erforderlichen Lizenzen. Wenn Sie eine oder mehrere Lizenzen erwerben wollen, 
-schreiben Sie bitte eine Mail an
-
-                                support@cresd.de
-                                
-und Sie erhalten eine Rechnung mit ausgewiesener MwSt und ein gedrucktes 
-Handbuch.
