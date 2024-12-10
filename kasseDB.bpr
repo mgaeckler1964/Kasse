@@ -57,7 +57,7 @@ AutoIncBuild=1
 MajorVer=3
 MinorVer=1
 Release=2
-Build=30
+Build=31
 Debug=0
 PreRelease=0
 Special=0
@@ -69,7 +69,7 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=gak
 FileDescription=Kassenterminal DB Adminstration
-FileVersion=3.1.2.30
+FileVersion=3.1.2.31
 InternalName=KASSENDB
 LegalCopyright=(c) 2012-2024 by Martin Gäckler, Linz
 LegalTrademarks=

@@ -210,7 +210,14 @@ void __fastcall TKasseForm::FormShow(TObject *)
 {
 	STRING	privDir = getTempPath() + "\\KASSE";
 
-	makeDirectory( privDir );
+	try
+	{
+		makeDirectory( privDir );
+	}
+	catch(...)
+	{
+		// ignore stupid windows 10 errors
+	}
 
 	Session->PrivateDir = (const char *)privDir;
 	try
