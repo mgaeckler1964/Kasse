@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <setup>
-<application title="CRESD Kassenterminal" version="3.1.2.129" author="gak" />
-<bde AliasName="KASSE" RESOURCE="0007" DataPath="" dbVersion="5" />
+<application title="MG Kassenterminal" version="3.1.2.131" author="gak" />
+<bde AliasName="KASSE" RESOURCE="0007" DataPath="" dbVersion="6" />
 <icons Group="Kasse">
 <icon title="Kasse" target="PROGRAM\Kasse.exe" main="true" dbUpd="" />
 <icon title="Liesmich" target="PROGRAM\Liesmich.txt" main="" dbUpd="" />
