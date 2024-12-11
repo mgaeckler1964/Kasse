@@ -40,7 +40,7 @@
     <SYSDEFINES value="NO_STRICT"/>
     <MAINSOURCE value="Kasse.cpp"/>
     <INCLUDEPATH value="..\GAKLIB\CTOOLS;..\WINLIB;..\GAKLIB\Repository;..\gaklib\include;$(BCB)\include;$(BCB)\include\vcl;..;&quot;E:\OpenSSL\include\&quot;"/>
-    <LIBPATH value="..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_uk\obj;$(BCB)\lib_uk\release;$(BCB)\lib_uk"/>
+    <LIBPATH value="..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_ger\obj;$(BCB)\lib_ger"/>
     <WARNINGS value="-w-par"/>
   </MACROS>
   <OPTIONS>
@@ -112,10 +112,10 @@ Item19=$(BCB)\include;$(BCB)\include\vcl;..\gaklib\include;..
 
 [HistoryLists\hlLibraryPath]
 Count=14
-Item0=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_uk\obj;$(BCB)\lib_uk\release;$(BCB)\lib_uk
-Item1=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_uk\obj;$(BCB)\lib_uk
-Item2=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
-Item3=..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
+Item0=..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
+Item1=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_uk\obj;$(BCB)\lib_uk\release;$(BCB)\lib_uk
+Item2=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_uk\obj;$(BCB)\lib_uk
+Item3=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
 Item4=$(BCB)\lib_ger\obj;$(BCB)\lib_ger
 Item5=f:\object\;e:\CBuilder5\Projects\;..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
 Item6=f:\object;e:\CBuilder5\Projects\;..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\WINLIB;$(BCB)\lib_ger\obj;$(BCB)\lib_ger

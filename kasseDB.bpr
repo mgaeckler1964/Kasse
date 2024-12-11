@@ -32,7 +32,7 @@
     <SYSDEFINES value="NO_STRICT"/>
     <MAINSOURCE value="kasseDB.cpp"/>
     <INCLUDEPATH value="..\GAKLIB\CTOOLS;..\GAKLIB\Repository;..\GAKLIB\Include;..;$(BCB)\include;$(BCB)\include\vcl"/>
-    <LIBPATH value="..\GAKLIB\CTOOLS;..\GAKLIB\Repository;$(BCB)\lib_uk\obj;$(BCB)\lib_uk\RELEASE;$(BCB)\lib_uk"/>
+    <LIBPATH value="..\GAKLIB\CTOOLS;..\GAKLIB\Repository;$(BCB)\lib_ger\obj;$(BCB)\lib_ger"/>
     <WARNINGS value="-w-par"/>
   </MACROS>
   <OPTIONS>
@@ -90,9 +90,9 @@ Item6=..\GAKLIB\Repository;$(BCB)\include;$(BCB)\include\vcl
 
 [HistoryLists\hlLibraryPath]
 Count=6
-Item0=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;$(BCB)\lib_uk\obj;$(BCB)\lib_uk\RELEASE;$(BCB)\lib_uk
-Item1=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;$(BCB)\lib_uk\obj;$(BCB)\lib_uk
-Item2=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
+Item0=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
+Item1=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;$(BCB)\lib_uk\obj;$(BCB)\lib_uk\RELEASE;$(BCB)\lib_uk
+Item2=..\GAKLIB\CTOOLS;..\GAKLIB\Repository;$(BCB)\lib_uk\obj;$(BCB)\lib_uk
 Item3=$(BCB)\lib_ger\obj;$(BCB)\lib_ger
 Item4=..\GAKLIB\Repository;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
 Item5=..\GAKLIB\VCL_TOOLS;..\GAKLIB\Repository;$(BCB)\lib_ger\obj;$(BCB)\lib_ger
