@@ -18,7 +18,7 @@ object PartyForm: TPartyForm
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 810
+    Width = 818
     Height = 41
     Align = alTop
     TabOrder = 0
@@ -71,8 +71,8 @@ object PartyForm: TPartyForm
   end
   object Panel2: TPanel
     Left = 0
-    Top = 415
-    Width = 810
+    Top = 427
+    Width = 818
     Height = 28
     Align = alBottom
     TabOrder = 1
@@ -87,8 +87,8 @@ object PartyForm: TPartyForm
   object DBGrid1: TDBGrid
     Left = 0
     Top = 41
-    Width = 810
-    Height = 374
+    Width = 818
+    Height = 386
     Align = alClient
     DataSource = DataSourceParty
     TabOrder = 2

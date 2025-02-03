@@ -22,14 +22,14 @@ object VerkaufForm: TVerkaufForm
     Left = 337
     Top = 0
     Width = 5
-    Height = 627
+    Height = 639
     Cursor = crHSplit
   end
   object Panel1: TPanel
     Left = 0
     Top = 0
     Width = 337
-    Height = 627
+    Height = 639
     Align = alLeft
     TabOrder = 0
     object Panel3: TPanel
@@ -71,7 +71,7 @@ object VerkaufForm: TVerkaufForm
       Left = 1
       Top = 42
       Width = 335
-      Height = 584
+      Height = 596
       Align = alClient
       DataSource = DataSourceVerkauf
       ReadOnly = True
@@ -88,14 +88,14 @@ object VerkaufForm: TVerkaufForm
   object Panel2: TPanel
     Left = 342
     Top = 0
-    Width = 661
-    Height = 627
+    Width = 669
+    Height = 639
     Align = alClient
     TabOrder = 1
     object Panel4: TPanel
       Left = 1
       Top = 1
-      Width = 659
+      Width = 667
       Height = 41
       Align = alTop
       TabOrder = 0
@@ -146,8 +146,8 @@ object VerkaufForm: TVerkaufForm
     object DBGridVerkaufArtikel: TDBGrid
       Left = 1
       Top = 42
-      Width = 659
-      Height = 184
+      Width = 667
+      Height = 196
       Align = alClient
       DataSource = DataSourceVerkaufArtikel
       ReadOnly = True
@@ -161,8 +161,8 @@ object VerkaufForm: TVerkaufForm
     end
     object PageControl: TPageControl
       Left = 1
-      Top = 226
-      Width = 659
+      Top = 238
+      Width = 667
       Height = 400
       ActivePage = TabSheetPrivate
       Align = alBottom
