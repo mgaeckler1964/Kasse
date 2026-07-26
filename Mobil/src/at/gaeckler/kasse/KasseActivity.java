@@ -2,11 +2,11 @@
 		Project:		KASSE
 		Module:			KasseActivity.java
 		Description:	
-		Author:			Martin Gäckler
+		Author:			Martin GÃ¤ckler
 		Address:		HoFmannsthalweg 14, A-4030 Linz
 		Web:			https://www.gaeckler.at/
 
-		Copyright:		(c) 1988-2024 Martin Gäckler
+		Copyright:		(c) 1988-2024 Martin GÃ¤ckler
 
 		This program is free software: you can redistribute it and/or modify  
 		it under the terms of the GNU General Public License as published by  
@@ -15,7 +15,7 @@
 		You should have received a copy of the GNU General Public License 
 		along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-		THIS SOFTWARE IS PROVIDED BY Martin Gäckler, Austria, Linz ``AS IS''
+		THIS SOFTWARE IS PROVIDED BY Martin GÃ¤ckler, Austria, Linz ``AS IS''
 		AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
 		TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
 		PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR
@@ -41,9 +41,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.ActionBar.LayoutParams;
-import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -57,6 +55,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
 class ArticelRecord
 {
 	public String	Name, Group, EanCode;
@@ -242,7 +241,7 @@ class senderThread extends KassenThread
 	}
 }
 
-public class KasseActivity extends Activity implements LogonDialog.KasseLogonListener
+public class KasseActivity extends AppCompatActivity implements LogonDialog.KasseLogonListener
 {
 
 	List<ArticelRecord>			articles;
@@ -284,9 +283,9 @@ public class KasseActivity extends Activity implements LogonDialog.KasseLogonLis
     	alert.show();
 	}
     private void showLogonDialog() {
-        FragmentManager fm = getFragmentManager();
-        logonDialog		= new LogonDialog();
-        logonDialog.show(fm, "kasse_logon");
+		androidx.fragment.app.FragmentManager fm = getSupportFragmentManager();
+		logonDialog = new LogonDialog();
+		logonDialog.show(fm, "kasse_logon");
     }
 
 	void updateGridView( String group )
@@ -472,9 +471,6 @@ public class KasseActivity extends Activity implements LogonDialog.KasseLogonLis
 		});
 
 		showLogonDialog();
-		
-		
-
 	}
 	@Override
 	public void  onConfigurationChanged (Configuration newConfig)
